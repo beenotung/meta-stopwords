@@ -1,3 +1,14 @@
+# meta-stopwords
+
+Combine the stopwords from multiple packages.
+
+## Stopwords List
+- [stopwords-json](https://www.npmjs.com/package/stopwords-json)
+- [is-stopword](https://www.npmjs.com/package/is-stopword)
+- [stopword](https://www.npmjs.com/package/stopword)
+- [nltk-stopwords](https://www.npmjs.com/package/nltk-stopwords)
+- [stopwords-iso](https://www.npmjs.com/package/stopwords-iso)
+- [vietnamese-stopwords](https://www.npmjs.com/package/vietnamese-stopwords)
 
 ## License
 This is free and open-source software (FOSS) with
