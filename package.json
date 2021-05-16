@@ -1,0 +1,51 @@
+{
+  "name": "meta-stopwords",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/helpers.js",
+  "keywords": [
+    "NLP",
+    "segmentation",
+    "phrases",
+    "split",
+    "stopword",
+    "stream",
+    "tokenizer",
+    "word",
+    "English",
+    "Chinese",
+    "multi",
+    "language"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "export": "ts-node scripts/export",
+    "clean": "rimraf dist",
+    "tsc": "tsc",
+    "build": "run-s clean export tsc"
+  },
+  "dependencies": {
+    "novel-segment": "^2.7.58"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "is-stopword": "^1.1.0",
+    "n-stopwords": "github:beenotung/stopwords",
+    "nltk-stopwords": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "stopword": "^1.0.7",
+    "stopwords-iso": "^1.1.0",
+    "stopwords-json": "^1.2.0",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4",
+    "vietnamese-stopwords": "^0.0.2"
+  }
+}

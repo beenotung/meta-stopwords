@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+set -o pipefail
+grep require import.ts \
+  | awk -F 'require' '{print $2}' \
+  | awk -F '(' '{print $2}' \
+  | awk -F ')' '{print $1}' \
+  | sed 's/"//g' \
+  | sed "s/'//g" \
