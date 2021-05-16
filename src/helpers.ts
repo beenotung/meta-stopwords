@@ -37,7 +37,7 @@ function getChineseSegment() {
 
 export function splitChineseText(text: string, options?: Options): string[] {
   let segment = getChineseSegment()
-  let words = segment.doSegment(text, { simgple: true })
+  let words = segment.doSegment(text, { simple: true })
   text = words.join(' ')
   return splitText(text, options)
 }
