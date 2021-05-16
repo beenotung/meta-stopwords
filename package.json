@@ -1,7 +1,7 @@
 {
   "name": "meta-stopwords",
   "version": "1.0.0",
-  "description": "",
+  "description": "Combine the stopwords from multiple packages",
   "main": "dist/helpers.js",
   "keywords": [
     "NLP",
@@ -47,5 +47,13 @@
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.2.4",
     "vietnamese-stopwords": "^0.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/meta-stopwords.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/meta-stopwords/issues"
+  },
+  "homepage": "https://github.com/beenotung/meta-stopwords#readme"
 }
