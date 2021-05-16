@@ -1,6 +1,6 @@
 {
   "name": "meta-stopwords",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combine the stopwords from multiple packages",
   "main": "dist/helpers.js",
   "keywords": [
