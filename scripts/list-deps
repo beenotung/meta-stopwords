@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 set -o pipefail
-grep require import.ts \
+grep require scripts/import.ts \
   | awk -F 'require' '{print $2}' \
   | awk -F '(' '{print $2}' \
   | awk -F ')' '{print $1}' \
