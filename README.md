@@ -2,6 +2,8 @@
 
 Combine the stopwords from multiple packages.
 
+[![npm Package Version](https://img.shields.io/npm/v/meta-stopwords.svg?maxAge=3600)](https://www.npmjs.com/package/meta-stopwords)
+
 ## Stopwords List
 - [stopwords-json](https://www.npmjs.com/package/stopwords-json)
 - [is-stopword](https://www.npmjs.com/package/is-stopword)
