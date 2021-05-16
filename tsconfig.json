@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
     "target": "es6",
     "module": "commonjs",
     "resolveJsonModule": true,
